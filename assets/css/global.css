@@ -90,11 +90,11 @@
 :root {
 	
 	/* #fd6711 in decimal RGB */
-  --main-color: rgb(253,103,17);
+  --main-color: rgba(2, 100, 196, 0.8);
   --main-color-rgb: 253,103,17;
   
   /* #fd6711 in decimal RGBA */
-  --main-color-rgba: rgba(253,103,17,0.50);
+  --main-color-rgba: rgba(3, 68, 133, 0.8);
   
   /* #70717a in decimal RGB */
   --color-two: rgb(112,113,122);
