@@ -18,15 +18,6 @@
 		margin-left:var(--margin-left-80);
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	.header-style-six .phone-box-two{
 		display:none;
 	}
@@ -1195,7 +1186,7 @@
 	}
 	
 	.about-section{
-		padding-top:var(--padding-top-100);
+		padding-top:var(--padding-top-50);
 	}
 	
 	.report-section .image-column .inner-column{
