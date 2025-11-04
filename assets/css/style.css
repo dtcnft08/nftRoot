@@ -10801,7 +10801,7 @@
 .rtl .default-form input[type="text"], 
 .rtl .default-form input[type="email"], 
 .rtl .default-form input[type="password"], 
-.rtl .default-form select, .default-form textarea,
+
 .rtl .main-footer .footer-column,
 .rtl .main-slider-two .content-column .inner-column,
 .rtl .about-section-two .content-column .inner-column,
@@ -10859,7 +10859,7 @@
 .rtl .contact-form .form-group input[type="tel"], 
 .rtl .contact-form .form-group input[type="email"], 
 .rtl .contact-form .form-group select,
-.rtl .contact-form .form-group textarea,
+
 .rtl .contact-one,
 .rtl .team-details .main-bg .text-wrapper,
 .rtl .blog-search-box .form-group input[type="text"], 
@@ -13104,3 +13104,4 @@
 .rtl .cta-section-four{
 	text-align:right;
 }
+
