@@ -90,14 +90,14 @@
 :root {
 	
 	/* #fd6711 in decimal RGB */
-  --main-color: rgba(2, 100, 196, 0.8);
+  --main-color: rgba(0, 0, 0, 0.8);
   --main-color-rgb: 253,103,17;
   
   /* #fd6711 in decimal RGBA */
   --main-color-rgba: rgba(3, 68, 133, 0.8);
   
   /* #70717a in decimal RGB */
-  --color-two: rgb(112,113,122);
+  --color-two: rgb(6,3,21);
   
   /* #060315 in decimal RGB */
   --color-three: rgb(6,3,21);
@@ -106,7 +106,7 @@
   --color-four: rgb(250,64,27);
   
   /* #f8f8f8 in decimal RGB */
-  --color-five: rgb(248,248,248);
+  --color-five: rgb(255, 255, 255);
   
   /* #e6e0dd in decimal RGB */
   --color-six: rgb(230,224,221);
@@ -797,8 +797,9 @@
  ***/
  
 * {
-	margin:0px;
-	padding:0px;
+	margin:px;
+	padding-top:1px;
+
 	border:none;
 	outline:none;
 }
@@ -869,7 +870,7 @@ h1,h2,h3,h4,h5,h6 {
 	position:relative;
 	margin:0px;
 	background:none;
-	color:var(--heading-color);
+	color:rgba(2, 100, 196, 0.8);
 	font-family: var(--aelpa-catamaran-font);
 }
 
