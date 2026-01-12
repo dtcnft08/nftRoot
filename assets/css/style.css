@@ -1618,36 +1618,49 @@
 
 /* Service Block */
 
-.service-block{
-	position:relative;
-	margin-bottom:var(--margin-bottom-30);
+.service-block {
+    position: relative;
+    margin-bottom: var(--margin-bottom-30);
 }
 
-.service-block .inner-box{
-	position:relative;
-	text-align:center;
-	border-radius:6px;
-	padding:50px 35px 50px;
-	background-color:var(--white-color);
-	box-shadow:0px 0px 20px rgba(0,0,0,0.08);
+/* FIXED SIZE BOX */
+.service-block .inner-box {
+    position: relative;
+    width: 290px;          /* Set your fixed width */
+    height: 380px;         /* Set your fixed height */
+    background-color: var(--white-color);
+    border-radius: 6px;
+    padding: 40px 30px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+
+    /* Makes content nicely centered */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 0.3s ease;
 }
 
-.service-block .inner-box:before{
-	position:absolute;
-	content:'';
-	left:14px;
-	top:14px;
-	right:14px;
-	bottom:14px;
-	opacity:0;
-	border-radius:6px;
-	transform:scale(0.8,1);
-	border:1px solid var(--main-color);
-	-webkit-transition:all 500ms ease;
-	-moz-transition:all 500ms ease;
-	-ms-transition:all 500ms ease;
-	-o-transition:all 500ms ease;
-	transition:all 500ms ease;
+/* Border animation hover */
+.service-block .inner-box:before {
+    content: "";
+    position: absolute;
+    left: 14px;
+    top: 14px;
+    right: 14px;
+    bottom: 14px;
+    opacity: 0;
+    border-radius: 6px;
+    border: 1px solid var(--main-color);
+    transform: scale(0.8, 1);
+    transition: all 0.5s ease;
+}
+
+.service-block .inner-box:hover:before {
+    opacity: 1;
+    transform: scale(1, 1);
 }
 
 .service-block .inner-box:hover::before{
@@ -9799,7 +9812,7 @@
 	position:relative;
 	font-weight:600;
 	line-height:60px;
-	color:var(--color-three);
+	color:#0264c4cc;
 	font-size:var(--font-50);
 }
 
