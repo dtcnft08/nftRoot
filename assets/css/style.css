@@ -2434,6 +2434,190 @@
 	font-family: var(--aelpa-kumbh-font);
 }
 
+
+/*** 
+
+====================================================================
+	Program page/ Skill development section
+====================================================================
+
+***/
+.skill-section {
+	padding: 80px 0;
+}
+
+.skill-image {
+	max-width: 100%;
+	transform: translateX(30px); /* slight right push for balance */
+}
+
+.empowerment-points {
+	margin-top: 20px;
+	padding-left: 0;
+	list-style: none;
+}
+
+.empowerment-points li {
+	margin-bottom: 14px;
+	line-height: 1.6;
+}
+
+/* Mobile Optimization */
+@media (max-width: 991px) {
+	.skill-image {
+		transform: none;
+		margin-top: 30px;
+	}
+}
+
+/*** 
+
+====================================================================
+	Program page/ women empowerment section 
+====================================================================
+
+***/
+
+
+.empowerment-section {
+	padding: 80px 0;
+}
+
+.empowerment-image {
+	max-width: 100%;
+	transform: translateX(-30px); /* subtle left emphasis */
+}
+
+.empowerment-points {
+	margin-top: 20px;
+	padding-left: 0;
+	list-style: none;
+}
+
+.empowerment-points li {
+	margin-bottom: 14px;
+	line-height: 1.6;
+}
+
+/* Mobile fix */
+@media (max-width: 991px) {
+	.empowerment-image {
+		transform: none;
+		margin-bottom: 30px;
+	}
+}
+
+
+/*** 
+
+====================================================================
+	Program page/ Environmental Awareness & Action Programs
+====================================================================
+
+***/
+
+.environment-section {
+	padding: 80px 0;
+}
+
+.environment-image {
+	max-width: 100%;
+	transform: translateX(30px); /* subtle right emphasis */
+}
+
+.empowerment-points {
+	margin-top: 20px;
+	padding-left: 0;
+	list-style: none;
+}
+
+.empowerment-points li {
+	margin-bottom: 14px;
+	line-height: 1.6;
+}
+
+/* Mobile Optimization */
+@media (max-width: 991px) {
+	.environment-image {
+		transform: none;
+		margin-top: 30px;
+	}
+}
+
+
+/*** 
+
+====================================================================
+	Program page/ our-approach Section
+====================================================================
+
+***/
+
+.process-section {
+	padding: 90px 0;
+	background: #f9fafb;
+}
+
+.process-section .sub-text {
+	max-width: 650px;
+	margin: 15px auto 0;
+	font-size: 16px;
+	color: #555;
+}
+
+.process-block {
+	margin-bottom: 30px;
+}
+
+.process-block .inner-box {
+	position: relative;
+	background: #ffffff;
+	padding: 35px 30px;
+	border-radius: 12px;
+	box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+	transition: all 0.3s ease;
+	height: 100%;
+}
+
+.process-block .inner-box:hover {
+	transform: translateY(-6px);
+	box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+}
+
+.step-number {
+	position: absolute;
+	top: -15px;
+	right: 20px;
+	background: #2e7d32;
+	color: #fff;
+	font-weight: 700;
+	font-size: 18px;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	border-radius: 50%;
+}
+
+.process-block h4 {
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+.process-block p {
+	font-size: 15px;
+	line-height: 1.6;
+	color: #555;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+	.step-number {
+		right: 15px;
+	}
+}
+
+
 /*** 
 
 ====================================================================
@@ -13118,3 +13302,22 @@
 	text-align:right;
 }
 
+/*** 
+
+====================================================================
+	Program page/ point
+====================================================================
+
+***/
+
+.empowerment-points {
+	margin-top: 20px;
+	padding-left: 0;
+	list-style: none;
+}
+
+.empowerment-points li {
+	font-size: 16px;
+	margin-bottom: 12px;
+	line-height: 1.6;
+}
